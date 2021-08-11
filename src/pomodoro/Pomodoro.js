@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import useInterval from "../utils/useInterval";
-import Header from "./header/Header";
-import Timer from "./body/Timer";
-import Session from "./body/Session";
+import Header from "./Duration-Header/Header";
+import Timer from "./Time-Body/Timer";
+import Session from "./Time-Body/Session";
 
 // These functions are defined outside of the component to insure they do not have access to state
 // and are, therefore more likely to be pure.

@@ -1,5 +1,5 @@
 import React from "react";
-import classNames from "../../utils/class-names";
+import classNames from "../../../utils/class-names";
 
 function Timer({ running, playPause, session, setPomodoroState }) {
   const resetSession = () => {

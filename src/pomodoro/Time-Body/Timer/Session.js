@@ -1,5 +1,5 @@
 import React from "react";
-import { minutesToDuration, secondsToDuration } from "../../utils/duration";
+import { minutesToDuration, secondsToDuration } from "../../../utils/duration";
 
 function Session({
   state: {
